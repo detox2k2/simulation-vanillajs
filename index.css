@@ -1,0 +1,106 @@
+body {
+    margin:0;
+}
+.header {
+background-color: #424249;
+height: 10vh;
+display: flex;
+
+}
+/* #logo{
+
+} */
+.budget-total{
+background-color: #424249;
+font-family: 'Roboto', sans-serif;
+border: none;
+height: 4vh;
+width: 7vw;
+display: flex;
+align-content: center;
+margin-top: 4vh;
+}
+.header-budget-total{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    display: flex;
+    margin-left: 55vw;
+    margin-top: 3vh;
+    align-items: center;
+}
+
+.mid-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 125px;
+
+}
+
+.container-1{
+    background-color: #EFE8E1;
+    height: 30vh;
+    width:30vw;
+}
+.monthly-expenses {
+    color: #424249;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding-left: 8vw;
+    padding-top: 2vh;
+}
+.container-2 {
+    background-color:#54D2E5;
+    height: 40vh;
+    width:30vw;
+    margin-top: 70px;
+    display: inline-block;
+
+}
+.add-bill{
+    color: #424249;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    padding-top: 10px;
+    padding-left:10px;
+}
+#name {
+    color: #424249;
+    font-size: 30px;
+    font-family:  'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#amount {
+    color: #424249;
+    font-size: 30px;
+    font-family:  'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#name-input-field-1{
+margin-left: 150px;
+display: flex;
+margin-top: -2.5cm;
+border-radius: 5px;
+height: 3vh; 
+}
+#name-input-field-2{
+    margin-left: 150px;
+    display: flex;
+    margin-top: 42px;
+    border-radius: 5px;
+    height: 3vh; 
+}
+.add-button{
+background-color: #424249;
+color: white;
+border-radius: 5px;
+font-family: 'Righteous', cursive;
+font-size: 20px;
+margin-top: 30px;
+height: 5vh;
+width: 20vw;
+margin-left: 70px
+}
